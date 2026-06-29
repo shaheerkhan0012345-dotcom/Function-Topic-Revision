@@ -110,3 +110,12 @@ arr.forEach(function printval(val){
 });
 
 
+// callback function
+
+
+let arr = [1, 2, 3, 4]
+
+arr.forEach((value)=>{
+
+    console.log(val)
+});
