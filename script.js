@@ -142,13 +142,19 @@ let mulfunc = (a , b) =>{
 // });
 
 
- let arr = ["KHNA" , "RANA", "MUGHAL"]
+//  let arr = ["KHNA" , "RANA", "MUGHAL"]
 
- arr.forEach((val, idx, arr)=>{
-    console.log(val.toLowerCase(), idx, arr)
- });
+//  arr.forEach((val, idx, arr)=>{
+//     console.log(val.toLowerCase(), idx, arr)
+//  });
 
 
 
-//  Q; for a given arra7y of number,print the square of each value using foreachloop
+//  Q; for a given array of number,print the square of each 
+// value using foreachloop
 
+let nums = [2, 3, 4, 5];
+
+nums.forEach((num) =>{
+    console.log(num*num)
+})
