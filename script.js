@@ -84,19 +84,29 @@ let mulfunc = (a , b) =>{
 
 
 
-let vowelCount = (str) =>{
-        let count = 0;
-    for( let char of str){
-        if(
-            char=== "a" || 
-            char === "e" || 
-            char === "i" || 
-            char === "o" || 
-            char === "u"){
+// let vowelCount = (str) =>{
+//         let count = 0;
+//     for( let char of str){
+//         if(
+//             char=== "a"  || 
+//             char === "e" || 
+//             char === "i" || 
+//             char === "o" || 
+//             char === "u"){
 
-                count++;
-        }
-    }
+//                 count++;
+//         }
+//     }
 
-    console.log(count)
-}
+//     console.log(count)
+// }
+
+
+let arr = [1, 2, 3, 4]
+
+
+arr.forEach(function printval(val){
+    console.log(val);
+});
+
+
