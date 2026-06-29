@@ -102,20 +102,41 @@ let mulfunc = (a , b) =>{
 // }
 
 
-let arr = [1, 2, 3, 4]
+// let arr = [1, 2, 3, 4]
 
 
-arr.forEach(function printval(val){
-    console.log(val);
-});
+// arr.forEach(function printval(val){
+//     console.log(val);
+// });
 
 
 // callback function
 
 
-let arr = [1, 2, 3, 4]
+// let arr = [1, 2, 3, 4]
 
-arr.forEach((value)=>{
+// arr.forEach((val)=>{
 
-    console.log(val)
+//     console.log(val)
+// });
+
+
+//with string
+
+// let arr = ["apple", "banana", "cucumber","carrot"]
+
+// arr.forEach((value =>{
+//     console.log(val)
+// }));
+
+
+// string wit uppercase
+
+
+let arr = ["hammad" , "shaheer", "zunaira"]
+
+arr.forEach((val) =>{
+
+    consol.log(val.toUpperCase())
+
 });
