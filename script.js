@@ -133,10 +133,22 @@ let mulfunc = (a , b) =>{
 // string wit uppercase
 
 
-let arr = ["hammad" , "shaheer", "zunaira"]
+// let arr = ["hammad" , "shaheer", "zunaira"]
 
-arr.forEach((val) =>{
+// arr.forEach((val) =>{
 
-    consol.log(val.toUpperCase())
+//     console.log(val.toUpperCase())
 
-});
+// });
+
+
+ let arr = ["KHNA" , "RANA", "MUGHAL"]
+
+ arr.forEach((val, idx, arr)=>{
+    console.log(val.toLowerCase(), idx, arr)
+ });
+
+
+
+//  Q; for a given arra7y of number,print the square of each value using foreachloop
+
