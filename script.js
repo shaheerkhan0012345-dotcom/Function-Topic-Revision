@@ -153,8 +153,21 @@ let mulfunc = (a , b) =>{
 //  Q; for a given array of number,print the square of each 
 // value using foreachloop
 
-let nums = [2, 3, 4, 5];
+// let nums = [2, 3, 4, 5];
 
-nums.forEach((num) =>{
-    console.log(num*num)
-})
+// nums.forEach((num) =>{
+//     console.log(num*num)
+// })
+
+
+// Properly
+
+
+let num = [22, 33, 55, 66];
+
+let calSquare = (num =>{
+    console.log(num*num);
+});
+
+
+num.forEach(calSquare);
