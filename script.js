@@ -177,13 +177,21 @@ let mulfunc = (a , b) =>{
 
 //when use for print value
 
-let num = [32, 45, 84, 13];
+// let num = [32, 45, 84, 13];
 
-num.map((val) =>{
-    console.log(val)
-})
+// num.map((val) =>{
+//     console.log(val)
+// })
 
 
 // When use for making new array
 
+let num = [21, 46, 87, 10];
+
+let newArray = num.map((val) => {
+    return val*val;
+
+});
+
+console.log(newArray);
 
