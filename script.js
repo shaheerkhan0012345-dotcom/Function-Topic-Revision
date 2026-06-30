@@ -163,11 +163,27 @@ let mulfunc = (a , b) =>{
 // Properly
 
 
-let num = [22, 33, 55, 66];
+// let num = [22, 33, 55, 66];
 
-let calSquare = (num =>{
-    console.log(num*num);
-});
+// let calSquare = (num =>{
+//     console.log(num*num);
+// });
 
 
-num.forEach(calSquare);
+// num.forEach(calSquare);
+
+
+// Map
+
+//when use for print value
+
+let num = [32, 45, 84, 13];
+
+num.map((val) =>{
+    console.log(val)
+})
+
+
+// When use for making new array
+
+
