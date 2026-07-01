@@ -220,6 +220,8 @@
 
 // console.log(newArr)\
 
+// reduce method
+
 let num = [1,2,3,4];
 
 
@@ -230,3 +232,17 @@ let newNum = num.reduce((res,curr) =>{
 })
 
 console.log(newNum)
+
+
+// to find bug number
+
+
+let arr = [1,2,3,4,5,6,7,8,9];
+
+
+let newnum = arr.reduce((prev,curr) =>{
+    return prev > curr ? prev : curr
+})
+
+
+console.log(newnum);
