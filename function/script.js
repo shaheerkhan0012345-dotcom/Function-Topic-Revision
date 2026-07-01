@@ -212,10 +212,21 @@
 // filkter to find val > 3
 
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
-let newArr = arr.filter((val) =>{
-    return val > 3;
+// let newArr = arr.filter((val) =>{
+//     return val > 3;
+// })
+
+// console.log(newArr)\
+
+let num = [1,2,3,4];
+
+
+let newNum = num.reduce((res,curr) =>{
+
+    return res + curr;
+
 })
 
-console.log(newArr)
+console.log(newNum)
