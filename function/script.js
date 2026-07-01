@@ -200,10 +200,22 @@
 
 // filter array method
 
+// let arr = [1, 2, 3, 4];
+
+// let newArr = arr.filter((val) =>{
+//     return val % 2 == 0;
+// })
+
+// cosole.log(newArr)
+
+
+// filkter to find val > 3
+
+
 let arr = [1, 2, 3, 4];
 
 let newArr = arr.filter((val) =>{
-    return val % 2 == 0;
+    return val > 3;
 })
 
-cosole.log(newArr)
+console.log(newArr)
